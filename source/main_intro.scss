@@ -1,0 +1,59 @@
+// @import "scss-tools.scss";
+
+main{
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: space-between;
+
+	.main__intro{
+		max-width: 100%;
+		display: flex;
+		//justify-content: space-around;
+		justify-content: space-between;
+    margin: 0 auto;
+    width: 86%;
+		.main__intro_title{
+			display: flex;
+			justify-content: left;
+			.main__intro_title-name{
+				font-family: roboto;
+				display: flex;
+				align-items: center;
+				font-style: italic;
+				font-weight: 900;
+				font-size: 36px;
+			}
+		}
+
+		.main__intro_article{
+			display: flex;
+			gap: 10px;
+		}
+		.main__article_intro_links{
+			display: flex;
+			justify-content: space-between;
+			width: max-content;
+			align-items: center;
+			
+			font-family: "Roboto";
+			font-style: normal;
+			font-weight: 300;
+			color: #737373;
+			font-size: 18px;
+			// line-height: 21px;
+			text-align: center;
+			text-decoration: none;
+		}
+		
+		// h1{
+		// 	font-size: 50px;
+		// 	font-family: "Roboto";
+		// 	font-style: normal;
+		// 	font-weight: 900;
+		// 	color: black;
+		// }
+	}
+	
+}

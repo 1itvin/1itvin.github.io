@@ -1,0 +1,94 @@
+main article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: nowrap column;
+          flex-flow: nowrap column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: space-between;
+      -ms-flex-align: space-between;
+          align-items: space-between;
+  width: 86%;
+  margin: 0 auto 20vh;
+}
+main article h2 {
+  margin: 0 0 6% 0;
+  padding: 0 0 40px 0;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 59px;
+  text-align: center;
+  color: #000000;
+}
+main article h2 span {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(2.23%, #cf036d), color-stop(69.51%, #3a40e7));
+  background: linear-gradient(180deg, #cf036d 2.23%, #3a40e7 69.51%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+}
+main article .article__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: nowrap row;
+          flex-flow: nowrap row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+main article .article__content .article__content_item {
+  width: 344px;
+  height: 47vh;
+  border-radius: 5%;
+  -webkit-box-shadow: 0px 0px 40px 0px rgba(184, 0, 95, 0.2);
+          box-shadow: 0px 0px 40px 0px rgba(184, 0, 95, 0.2);
+}
+main article .article__content .article__content_item img {
+  height: 50%;
+  width: 100%;
+  border-radius: 9px 9px 0 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main article .article__content .article__content_item .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 90%;
+  height: 50%;
+  margin: 0 auto;
+}
+main article .article__content .article__content_item .info p {
+  text-transform: uppercase;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #000000;
+  margin: 0;
+}
+main article .article__content .article__content_item .info span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  color: #767676;
+}

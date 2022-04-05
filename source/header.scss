@@ -1,0 +1,77 @@
+// @import "scss-tools.scss";
+
+header{
+	display: flex;
+	flex-flow: nowrap column;
+
+
+	nav{
+		margin:0 auto 6vh;
+		width:100%;
+		background: linear-gradient(269.91deg, rgba(46, 49, 146, 0.7) 0%, rgba(212, 20, 90, 0.7) 98.16%);
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		height: 77px;
+		font-family: 'Roboto', sans-serif;
+
+		.header__nav_phone{
+			align-items: center;
+			display: flex;
+			justify-content: left;
+			gap: 12px;
+			// margin-left: 10%;
+		}
+	
+		.header__nav_city{
+			
+			display: flex;
+			align-items: center;
+			gap: 8px;
+			justify-content: center;
+		}
+
+		.header__nav_page{
+			display: flex;
+			align-items: center;
+			gap: 15px;
+			// margin-right: 10%;
+		}
+				.header__nav_links {
+					font-size: 15px;
+					
+					position: relative;
+					font-family: 'Roboto';
+					font-style: normal;
+					font-weight: 500;
+					font-size: 15px;
+					line-height: 10px;
+					color: #FFFFFF;
+                text-decoration: none;
+                line-height: 15px;
+				}
+
+				// .header__nav_phone{
+				// 	display: flex;
+				// 	gap: 0px;
+				// 	// display: flex;
+				// 	flex-flow: nowrap row;
+				// 	justify-content: space-between;
+				// 	align-items: center;
+				// 	list-style-type: none;
+				// 	// height: 70px;
+				// 	width: 86%;
+				// 	// margin:0 auto;
+				// 	// padding: 0;
+				// 	cursor: pointer;
+				// }
+
+				.header__nav_location{
+					display: flex;
+				}
+				.header__nav_instagram{
+					display: flex;
+				}
+			}
+	
+}

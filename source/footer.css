@@ -1,0 +1,30 @@
+footer {
+  height: 25vh;
+  padding-top: 5vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+footer .footer__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20vw;
+}
+footer .footer__content {
+  width: 100%;
+}
+footer .footer__content p {
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+footer .footer__content span {
+  font-size: 14px;
+  display: block;
+}

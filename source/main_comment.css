@@ -1,0 +1,94 @@
+.coments {
+  height: 40vh;
+  background: linear-gradient(94.31deg, rgba(212, 20, 90, 0.25) 0.96%, rgba(46, 49, 146, 0.25) 104.83%);
+  padding: 3% 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: nowrap row;
+          flex-flow: nowrap row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.coments .coments_content {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: nowrap column;
+          flex-flow: nowrap column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 60px 0 0 0;
+  width: 31%;
+  height: 45%;
+  gap: 10px;
+  background: white;
+  border-radius: 9px;
+}
+.coments .coments_content .coments__content_text {
+  width: 85%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+}
+.coments .coments_content .coments__content_autor {
+  position: relative;
+  display: inline-block;
+  width: 130px;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  color: #8E8E8E;
+}
+.coments .coments_content .coments__content_autor::before {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90.14deg, #D4145A 3.35%, #3D5BF5 91.43%);
+  top: -9px;
+  margin: 0 auto;
+}
+.coments .coments_content::before {
+  position: absolute;
+  display: block;
+  top: -32%;
+  margin: 0 auto;
+}
+.coments .coments_content_first {
+  opacity: 0.4;
+}
+.coments .coments_content_first::before {
+  content: url("/img/a1.png");
+}
+.coments .coments_content_second {
+  opacity: 1;
+}
+.coments .coments_content_second::before {
+  content: url("/img/a2.png");
+}
+.coments .coments_content_third {
+  opacity: 0.4;
+}
+.coments .coments_content_third::before {
+  content: url("/img/a3.png");
+}
